@@ -1,18 +1,23 @@
 <script >
+import AppHeader from './components/AppHeader.vue';
+
 export default {
   data(){
     return{
-      text: "ciao"
+     
     }
-  }
+  },
+  components: {AppHeader}
 }
 </script>
 
 <template>
-  <h2>{{ text }}</h2>
 
+<AppHeader />
 </template>
 
-<style>
+<style lang="scss">
+@use "./style/general.scss";
+@import "@fortawesome/fontawesome-free/css/all.css";
 
 </style>
