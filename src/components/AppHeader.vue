@@ -11,8 +11,6 @@ export default {
                 "Take out",
                 "Bulletin",
                 "Reservation"
-
-
             ],
 
             MainTitle: "FINE DINING EXPERIENCE",
@@ -96,8 +94,9 @@ export default {
        hr {
         width: 7%;
         position: relative;
-        top: 27.5%;
+        top: 30.5%;
         left: 4%;
+        color: #ffff;
        }
 
         // content with paragraphs and main title 
@@ -226,7 +225,8 @@ export default {
         p {
             color: rgb(106, 211, 106);
             font-weight: bold;
-            font-size: 1.2rem;
+            font-size: 1rem;
+            margin: 0;
         }
         span {
             font-size: .6rem;
