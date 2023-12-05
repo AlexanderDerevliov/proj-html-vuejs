@@ -14,43 +14,57 @@ export default {
     <div class="my_upRow">
       <!-- text area -->
       <div class="text-area">
+
+        <!-- main text -->
         <span><strong>HAC TELLUS, FELIS RISUS AT</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit.
           Necessitatibus sit sed repellendus animi esse odit rem, facilis laborum tempore dolore itaque nemo eveniet
           quibusdam recusandae tempora mollitia. Dicta, aliquid possimus.</span>
-
+        
+        <!-- title -->
         <h2>FOOD IS OUR COMMON GROUND, A UNIVERSAL EXPERIENCE.</h2>
 
-
+        <!-- paragrapher -->
         <p>Autem doloremque repellat assumenda, rerum incidunt sed ullam unde, sequi hic sit, nesciunt minus quae? Iste,
           architecto.</p>
-
+        
+        <!-- immage -->
         <img src="../assets/img/signature.png" alt="">
-
-
       </div>
+
+
       <!-- immage area -->
       <div class="my_img-area">
         <p>California Rolls - $22</p>
       </div>
 
+
+    <!-- second row downside -->
     </div>
     <div class="my_downRow">
+
+      <!-- columns -->
       <div class="col">
+
+        <!-- cards -->
         <div class="card">
-
+          
+          <!-- image card -->
           <img src="../assets/img/sushi-1.png" alt="">
-
+          
+          <!-- title card -->
           <h4>THE BEST TABLE IN TOWN</h4>
-
+          
+          <!-- card text -->
           <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus placeat quaerat quod
             repellat pariatur.</p>
-
+           
+          <!-- button card -->
           <button><a>EXPLORE THE MENU</a>
           </button>
-
-
         </div>
       </div>
+
+      
       <div class="col">
         <div class="card">
 
