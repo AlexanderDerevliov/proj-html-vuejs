@@ -104,13 +104,11 @@ export default {
 .my_container {
   width: 80%;
   margin: 0 auto;
-  min-height: 600px;
   margin-top: 2rem;
   gap: 1rem;
 
   .my_upRow {
     width: 100%;
-    min-height: 550px;
     padding: 3rem;
     display: flex;
     justify-content: space-evenly;

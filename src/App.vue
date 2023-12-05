@@ -2,6 +2,7 @@
 import AppHeader from './components/AppHeader.vue';
 import AppAboutUs from './components/AppAboutUs.vue';
 import AppDinningExp from './components/AppDinningExp.vue';
+import AppCritics from './components/AppCritics.vue';
 
 export default {
   data(){
@@ -9,7 +10,7 @@ export default {
      
     }
   },
-  components: { AppHeader, AppAboutUs, AppDinningExp }
+  components: { AppHeader, AppAboutUs, AppDinningExp, AppCritics }
 }
 </script>
 
@@ -17,6 +18,7 @@ export default {
 <AppHeader />
 <AppAboutUs />
 <AppDinningExp />
+<AppCritics />
 
 
 </template>

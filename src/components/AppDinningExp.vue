@@ -52,21 +52,20 @@ export default {
 .my_container {
     background-color: #030303;
     width: 100%;
-    min-height: 600px;
     display: flex;
     justify-content: space-between;
 
 
     //   logo and content style
     .my_content {
-        padding: 1.3rem 7rem;
+        padding: 8rem 7rem;
         width: 45%;
         position: relative;
 
         hr {
             width: 5%;
             position: absolute;
-            top: 26.5%;
+            top: 22.5%;
             left: 8%;
             // border: 1px solid #ffff;
             color: #ffff;
@@ -74,7 +73,6 @@ export default {
 
         // content with paragraphs and main title 
         .content {
-            padding-top: 8rem;
             width: 90%;
             margin: 0 auto;
 
