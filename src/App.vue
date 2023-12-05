@@ -13,9 +13,10 @@ export default {
 </script>
 
 <template>
-
 <AppHeader />
 <AppAboutUs />
+
+
 </template>
 
 <style lang="scss">

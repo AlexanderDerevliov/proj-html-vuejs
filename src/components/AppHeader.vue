@@ -40,9 +40,9 @@ export default {
                 <!-- content -->
                 <div class="content">
                     <span>THE BEST TABLE IN TOWN </span>
-                    <h1>{{ MainTitle }}</h1>
+                    <h2>{{ MainTitle }}</h2>
                     <p>{{ Introduction }}</p>
-                    <button><a>Explore The Menu</a>
+                    <button><a>EXPLORE THE MENU</a>
                     </button>
                 </div>
             </section>
@@ -84,7 +84,7 @@ export default {
     min-height: 600px;
     display: flex;
     justify-content: space-between;
-    position: absolute;
+   
 
     //   logo and content style
     .my_logo-content {
@@ -92,10 +92,11 @@ export default {
         width: 45%;
 
        hr {
-        width: 7%;
-        position: relative;
-        top: 30.5%;
+        width: 3%;
+        position: absolute;
+        top: 24%;
         left: 4%;
+        // border: 1px solid #ffff;
         color: #ffff;
        }
 
@@ -107,7 +108,7 @@ export default {
 
 
 
-            h1 {
+            h2 {
                 color: #ffff;
                 margin: 2rem 0;
                 font-size: 3rem;
@@ -160,6 +161,7 @@ export default {
         background-size: cover;
         margin: 0 auto;
         width: 55%;
+        position: relative;
 
     //    list of menu in unordered list
         ul {
@@ -199,9 +201,9 @@ export default {
         background-color: #ffff;
         color: rgb(2, 2, 37);
         border-radius: 5px;
-        position: relative;
-        left: 93%;
-        top: 8%;
+        position: absolute;
+        right: 2%;
+        top: 19%;
         span {
             font-size: .6rem;
         }
@@ -217,9 +219,9 @@ export default {
         background-color: #ffff;
         color: rgb(2, 2, 37);
         border-radius: 5px;
-        position: relative;
-        left: 93%;
-        top: 9%;
+        position: absolute;
+        right: 2%;
+        top: 29%;
         
 
         p {
