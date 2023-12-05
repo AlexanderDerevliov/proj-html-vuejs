@@ -64,7 +64,7 @@ export default {
         </div>
       </div>
 
-      
+
       <div class="col">
         <div class="card">
 
@@ -157,7 +157,7 @@ export default {
       p {
         color: #ffff;
         position: absolute;
-        bottom: 5%;
+        bottom: 3%;
         left: 31%;
 
 

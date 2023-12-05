@@ -90,12 +90,13 @@ export default {
     .my_logo-content {
         padding: 1.3rem 4rem;
         width: 45%;
+        position: relative;
 
        hr {
-        width: 3%;
+        width: 5%;
         position: absolute;
-        top: 24%;
-        left: 4%;
+        top: 28.5%;
+        left: 12%;
         // border: 1px solid #ffff;
         color: #ffff;
        }
@@ -129,7 +130,7 @@ export default {
 
             button {
                 padding: .6rem 2rem;
-                margin-top: 2rem;
+                margin-top: 3rem;
                 color: #ffff;
                 background-color: #030303;
                 border-color: #ffff;
