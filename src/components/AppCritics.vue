@@ -130,7 +130,13 @@ export default {
             width: 50%;
             background-color: #030303;
             text-align: left;
+            transition: transform .8s;
 
+            &:hover {
+                transform: scale(1.2);
+
+
+            }
 
 
             hr {
@@ -244,6 +250,14 @@ export default {
         background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShzz_ehjH_arfiaJHMm4TFyazKReodNchzPw&usqp=CAU);
         background-size: cover;
         padding: 4rem;
+        transition: transform 1s;
+
+        &:hover {
+            transform: scale(1.2);
+
+
+        }
+
 
     }
 
@@ -253,6 +267,14 @@ export default {
         background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIrs8UlUP1W17POStfE3f4JSauXNZcpoOhdg&usqp=CAU);
         background-size: cover;
         padding: 4rem;
+        transition: transform .8s;
+
+        &:hover {
+            transform: scale(1.2);
+
+
+        }
+
 
     }
 }
