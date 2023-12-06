@@ -3,6 +3,7 @@ import AppHeader from './components/AppHeader.vue';
 import AppAboutUs from './components/AppAboutUs.vue';
 import AppDinningExp from './components/AppDinningExp.vue';
 import AppCritics from './components/AppCritics.vue';
+import AppBigImg from './components/AppBigImg.vue';
 
 export default {
   data(){
@@ -10,7 +11,7 @@ export default {
      
     }
   },
-  components: { AppHeader, AppAboutUs, AppDinningExp, AppCritics }
+  components: { AppHeader, AppAboutUs, AppDinningExp, AppCritics, AppBigImg }
 }
 </script>
 
@@ -19,6 +20,7 @@ export default {
 <AppAboutUs />
 <AppDinningExp />
 <AppCritics />
+<AppBigImg />
 
 
 </template>
