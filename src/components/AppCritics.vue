@@ -251,9 +251,11 @@ export default {
         background-size: cover;
         padding: 4rem;
         transition: transform 1s;
+        box-shadow: inset #03030393 0px 700px 0px 0px;
 
         &:hover {
             transform: scale(1.2);
+
 
 
         }
@@ -268,7 +270,7 @@ export default {
         background-size: cover;
         padding: 4rem;
         transition: transform .8s;
-
+        box-shadow: inset #03030393 0px 700px 0px 0px;
         &:hover {
             transform: scale(1.2);
 
