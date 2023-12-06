@@ -18,14 +18,14 @@ export default {
 
             <!-- rightside background img -->
             <div class="leftside"></div>
- 
+
             <!-- rightside content text -->
             <div class="rightside">
-                
+
                 <!-- content -->
                 <div class="content">
 
-                   <!-- text inside -->
+                    <!-- text inside -->
                     <span>MEGGY STEWART </span>
                     <h2>{{ Title }}</h2>
                     <div class="stars">
@@ -47,11 +47,11 @@ export default {
         </div>
 
         <div class="container-down">
-            
-                <div class="col-left">
-                    <div class="content">
-                        <span>MERY MAXEY</span>
-                        <h2>THE GUARDIAN</h2>
+
+            <div class="col-left">
+                <div class="content">
+                    <span>MERY MAXEY</span>
+                    <h2>THE GUARDIAN</h2>
                     <div class="stars">
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
@@ -66,12 +66,12 @@ export default {
                     </button>
 
 
-                    </div>
                 </div>
-                <div class="col-right">
-                    <div class="content">
-                        <span>PATRICK MONROE</span>
-                        <h2>GLOBE AND MAIL</h2>
+            </div>
+            <div class="col-right">
+                <div class="content">
+                    <span>PATRICK MONROE</span>
+                    <h2>GLOBE AND MAIL</h2>
                     <div class="stars">
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
@@ -86,9 +86,9 @@ export default {
                     </button>
 
 
-                    </div>
                 </div>
-           
+            </div>
+
         </div>
 
     </div>
@@ -101,6 +101,11 @@ export default {
     padding-top: 4rem;
     text-align: center;
 
+    .stars {
+        display: flex;
+        color: #ffff;
+        gap: .4rem;
+    }
 
     p {
         font-size: 1.4rem;
@@ -126,11 +131,7 @@ export default {
             background-color: #030303;
             text-align: left;
 
-            .stars {
-                display: flex;
-                color: #ffff;
-                gap: .4rem;
-            }
+
 
             hr {
                 width: 15%;
@@ -178,6 +179,7 @@ export default {
             }
         }
     }
+
     // ended upper row
 
     // container downside 
@@ -191,119 +193,67 @@ export default {
         gap: 2rem;
 
 
-        .col-left {
-            width: 50%;
-            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShzz_ehjH_arfiaJHMm4TFyazKReodNchzPw&usqp=CAU);
-            background-size: cover;
-            padding: 4rem;
-
-            .stars {
-                display: flex;
-                color: #ffff;
-                gap: .4rem;
-                
-            }
-
-
-            hr {
-                width: 15%;
-                margin: 2rem 0;
-                // border: 1px solid #ffff;
-                color: #ffff;
-
-            }
-            h2 {
-                color: #ffff;
-                margin: 2rem 0;
-                font-size: 2rem;
-                
-            }
-
-            p {
-                color: #bcbcbc;
-                line-height: 1.5rem;
-                font-size: 1.2rem;
-
-            }
-
-            span {
-                color: #bcbcbc;
-                font-size: .8rem;
-
-            }
-            button {
-                padding: .6rem 2rem;
-                margin-top: 3rem;
-                color: #ffff;
-                background-color: #03030300;
-                border-color: #ffff;
-
-                // hover on button header
-                &:hover {
-                    background-color: #ffff;
-                    color: #030303;
-                    transition: all 1.3s;
-                }
-            }
-
-        }
-        .col-right {
-            width: 50%;
-            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIrs8UlUP1W17POStfE3f4JSauXNZcpoOhdg&usqp=CAU);
-            background-size: cover;
-            padding: 4rem;
-
-            .stars {
-                display: flex;
-                color: #ffff;
-                gap: .4rem;
-            }
-
-            hr {
-                width: 15%;
-                margin: 2rem 0;
-                // border: 1px solid #ffff;
-                color: #ffff;
-            }
-            h2 {
-                color: #ffff;
-                margin: 2rem 0;
-                font-size: 2rem;
-            }
-
-            p {
-                color: #bcbcbc;
-                line-height: 1.5rem;
-                font-size: 1.2rem;
-
-            }
-
-            span {
-                color: #bcbcbc;
-                font-size: .8rem;
-
-            }
-            button {
-                padding: .6rem 2rem;
-                margin-top: 3rem;
-                color: #ffff;
-                background-color: #03030300;
-                border-color: #ffff;
-
-                // hover on button header
-                &:hover {
-                    background-color: #ffff;
-                    color: #030303;
-                    transition: all 1.3s;
-                }
-            }
+        hr {
+            width: 15%;
+            margin: 2rem 0;
+            // border: 1px solid #ffff;
+            color: #ffff;
 
         }
 
-        
+        h2 {
+            color: #ffff;
+            margin: 2rem 0;
+            font-size: 2rem;
+
+        }
+
+        p {
+            color: #bcbcbc;
+            line-height: 1.5rem;
+            font-size: 1.2rem;
+
+        }
+
+        span {
+            color: #bcbcbc;
+            font-size: .8rem;
+
+        }
+
+        button {
+            padding: .6rem 2rem;
+            margin-top: 3rem;
+            color: #ffff;
+            background-color: #03030300;
+            border-color: #ffff;
+
+            // hover on button header
+            &:hover {
+                background-color: #ffff;
+                color: #030303;
+                transition: all 1.3s;
+            }
+        }
+
     }
 
 
+    .col-left {
+        width: 50%;
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShzz_ehjH_arfiaJHMm4TFyazKReodNchzPw&usqp=CAU);
+        background-size: cover;
+        padding: 4rem;
 
+    }
+
+
+    .col-right {
+        width: 50%;
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIrs8UlUP1W17POStfE3f4JSauXNZcpoOhdg&usqp=CAU);
+        background-size: cover;
+        padding: 4rem;
+
+    }
 }
 </style>
