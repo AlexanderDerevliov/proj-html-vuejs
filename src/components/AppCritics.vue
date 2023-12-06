@@ -134,6 +134,7 @@ export default {
 
             &:hover {
                 transform: scale(1.2);
+                z-index: 1;
 
 
             }
@@ -181,6 +182,7 @@ export default {
                     background-color: #ffff;
                     color: #030303;
                     transition: all 1.3s;
+                    
                 }
             }
         }
@@ -255,6 +257,7 @@ export default {
 
         &:hover {
             transform: scale(1.2);
+            z-index: 1;
 
 
 
@@ -273,6 +276,7 @@ export default {
         box-shadow: inset #03030393 0px 700px 0px 0px;
         &:hover {
             transform: scale(1.2);
+            z-index: 1;
 
 
         }

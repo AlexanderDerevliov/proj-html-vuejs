@@ -151,7 +151,7 @@ export default {
                 
             }
            .text-menu {
-            padding: 3rem 3rem;
+            padding: 3rem 5rem;
             text-align: start;
             .item-price {
                 display: flex;
