@@ -46,7 +46,7 @@ export default {
 
    p {
     color: #ffff;
-    margin-top: 2rem;
+    margin: 1rem 0;
     
    }
 
