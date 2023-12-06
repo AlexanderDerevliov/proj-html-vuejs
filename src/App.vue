@@ -7,7 +7,8 @@ import AppBigImg from './components/AppBigImg.vue';
 import AppPromotions from './components/AppPromotions.vue';
 import AppReservation from './components/AppReservation.vue';
 import AppMenu from './components/AppMenu.vue';
-import AppAboutFood from './components/AppAboutFood.vue'
+import AppAboutFood from './components/AppAboutFood.vue';
+import AppFooter from './components/AppFooter.vue';
 
 export default {
   data(){
@@ -15,7 +16,7 @@ export default {
      
     }
   },
-  components: { AppHeader, AppAboutUs, AppDinningExp, AppCritics, AppBigImg, AppPromotions, AppReservation, AppMenu, AppAboutFood }
+  components: { AppHeader, AppAboutUs, AppDinningExp, AppCritics, AppBigImg, AppPromotions, AppReservation, AppMenu, AppAboutFood, AppFooter }
 }
 </script>
 
@@ -29,6 +30,7 @@ export default {
 <AppReservation />
 <AppMenu />
 <AppAboutFood />
+<AppFooter />
 
 
 </template>
